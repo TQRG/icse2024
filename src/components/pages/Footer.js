@@ -18,7 +18,7 @@ function Footer() {
                             <i className="fab fa-twitter"></i> @ICSEconf
                         </Link>
                         <p className="footer-link">
-                            <i className="fas fa-envelope"></i> email@email.com
+                            <i className="fas fa-envelope"></i> rui.carvalho@prconsulting.pt
                         </p>
                     </div>
                 </div>
