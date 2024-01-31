@@ -4,7 +4,7 @@ function Banner() {
     return (
         <>
             <div className="banner">
-                <img src="images/banner/banner.jpg" alt="banner" width='100%' />
+                <img href="https://tqrg.github.io/icse2024/images/banner/banner.jpg" alt="banner" width='100%' />
             </div>
         </>
     );
