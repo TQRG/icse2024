@@ -7,7 +7,7 @@ function SponsorsSection() {
     const topSponsors = ['acm', 'ieee-cs', 'sigsoft', 'tcse'];
     const platSponsors = ['huawei'];
     const silverSponsors = ['google', 'bytedance'];
-    const bronzeSponsors = ['oracle'];
+    const bronzeSponsors = ['oracle', 'paribas'];
     const exbBoothSponsors = ['blip'];
     const supporterSponsors = ['feup', 'inesc-id-lisboa', 'visit-portugal'];
 
@@ -21,6 +21,7 @@ function SponsorsSection() {
         'bytedance': 'https://www.bytedance.com/',
         'oracle': 'https://www.oracle.com/',
         'blip': 'https://blip.pt/',
+        'paribas': 'https://group.bnpparibas/en/',
         'feup': 'https://sigarra.up.pt/feup/pt/web_page.inicial',
         'inesc-id-lisboa': 'https://www.inesc-id.pt/',
         'visit-portugal': 'https://www.visitportugal.com/en'
