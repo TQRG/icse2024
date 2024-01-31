@@ -25,7 +25,7 @@ function Navbar() {
         <div className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <img src='images/logo-3.png' alt='logo' />
+              <img href='https://tqrg.github.io/icse2024/images/logo-3.png' alt='logo' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <i className='fas fa-times' /> : <i className='fas fa-bars' />}

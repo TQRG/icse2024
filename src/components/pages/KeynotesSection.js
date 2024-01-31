@@ -13,21 +13,21 @@ function KeynotesSection() {
                         <div className="keynotes-card">
                             <div className="keynotes-card-info">
                                 <h2>Rupak Majumdar</h2>
-                                <img src="images/keynotes/rupak_majumdar.jpg" alt="Rupak Majumdar" />
+                                <img href="https://tqrg.github.io/icse2024/images/keynotes/rupak_majumdar.jpg" alt="Rupak Majumdar" />
                                 <p>Challenges and Opportunities in Model Checking Large-scale Distributed Systems</p>
                             </div>
                         </div>
                         <div className="keynotes-card">
                             <div className="keynotes-card-info">
                                 <h2>Martin Rinard</h2>
-                                <img src="images/keynotes/martin_rinard.jpg" alt="Martin Rinard" />
+                                <img href="https://tqrg.github.io/icse2024/images/keynotes/martin_rinard.jpg" alt="Martin Rinard" />
                                 <p>Software Engineering in a World with Generative AI</p>
                             </div>
                         </div>
                         <div className="keynotes-card">
                             <div className="keynotes-card-info">
                                 <h2>Carol Smith</h2>
-                                <img src="images/keynotes/carol_smith.jpg" alt="Carol Smith" />
+                                <img href="https://tqrg.github.io/icse2024/images/keynotes/carol_smith.jpg" alt="Carol Smith" />
                                 <p>Trustworthy by Design</p>
                             </div>
                         </div>
