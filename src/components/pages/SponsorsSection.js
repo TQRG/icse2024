@@ -44,7 +44,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )
@@ -60,7 +60,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )
@@ -76,7 +76,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )
@@ -92,7 +92,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )
@@ -108,7 +108,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )
@@ -124,7 +124,7 @@ function SponsorsSection() {
                                     return (
                                         <div className="sponsors-content-row-logo" key={index}>
                                             <Link to={sponsorsLinks[sponsor]} target="_blank">
-                                                <img href={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
                                             </Link>
                                         </div>
                                     )

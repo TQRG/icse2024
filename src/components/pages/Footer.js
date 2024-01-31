@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footer-container">
                     <div className="footer-logo">
                         <Link to="/" className="footer-logo-link">
-                            <img href="https://tqrg.github.io/icse2024/images/logo-3.png" alt="logo" />
+                            <img src="https://tqrg.github.io/icse2024/images/logo-3.png" alt="logo" />
                         </Link>
                     </div>
                     <div className="footer-links">

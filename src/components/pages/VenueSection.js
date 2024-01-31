@@ -21,7 +21,7 @@ function VenueSection() {
                         </div>
                         <div className="venue-container-col-special">
                             <div className="venue-img-wrapper">
-                                <img src="images/venueSection/CCB-2.jpg" alt="Venue" className="venue-img" width='100%' />
+                                <img src="https://tqrg.github.io/icse2024/images/venueSection/CCB-2.jpg" alt="Venue" className="venue-img" width='100%' />
                             </div>
                         </div>
                     </div>
