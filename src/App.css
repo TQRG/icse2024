@@ -1,9 +1,13 @@
 :root{
     --main-color: #e3f6ff;
-    --secondary-color: #a05546;
+    --secondary-color: #a31f1a;
+    --light-yellow-color: #ffe1b3;
+    --yellow-color: #edab4a;
+    --dark-yellow-color: #8d5c20;
     --white-color: #fff;
     --black-color: #313131;
-    --icse-color: #a82020;
+    --icse-color: #a31f1a;
+    --dark-blue-color: #122e50;
 }
 
 *{
@@ -25,6 +29,6 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-thumb{
-    background-color: var(--secondary-color);
+    background-color: var(--dark-yellow-color);
 }
 

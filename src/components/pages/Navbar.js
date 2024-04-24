@@ -34,12 +34,12 @@ function Navbar() {
               <li className='navbar-btn'>
                 {
                   button ? (
-                    <Link to='https://conf.researchr.org/attending/icse-2024/registration' className='btn-link'>
-                      <Button buttonStyle='btn--outline' buttonColor='transparent' >REGISTER</Button>
+                    <Link to='https://conf.researchr.org/program/icse-2024/program-icse-2024/' className='btn-link'>
+                      <Button buttonStyle='btn--outline' buttonColor='transparent' >PROGRAM</Button>
                     </Link>
                   ) : (
-                    <Link to='https://conf.researchr.org/attending/icse-2024/registration' className='btn-link' onClick={closeMobileMenu}>
-                      <Button buttonStyle='btn--outline' buttonColor='transparent' buttonSize='btn--mobile' >REGISTER</Button>
+                    <Link to='https://conf.researchr.org/program/icse-2024/program-icse-2024/' className='btn-link' onClick={closeMobileMenu}>
+                      <Button buttonStyle='btn--outline' buttonColor='transparent' buttonSize='btn--mobile' >PROGRAM</Button>
                     </Link>
                   )
                 }

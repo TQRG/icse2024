@@ -1,7 +1,11 @@
 .footer-section {
-    background-color: var(--black-color);
+    background-color: var(--yellow-color);
     padding-top: 50px;
     padding-bottom: 10px;
+}
+
+svg {
+    margin-bottom: -10px;
 }
 
 .footer-container {
@@ -20,23 +24,50 @@
 
 .footer-link {
     text-decoration: none;
-    color: var(--white-color);
-    font-size: 18px;
+    color: var(--dark-yellow-color);
+}
+
+.footer-phone-number {
+    color: var(--dark-yellow-color);
 }
 
 .footer-link:hover {
-    color: var(--secondary-color);
+    text-decoration: none;
+    color: var(--white-color);
 }
 
-.footer-links i {
-    margin-right: 10px;
+.twitter {
+    margin-top: 0.5rem;
+    color: var(--black-color);
+}
+
+.twitter:hover{
+    color: var(--white-color);
+}
+
+
+.footer-title {
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.footer-mail {
+    color: var(--white-color);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    color: var(--black-color);
+    margin-bottom: 10px;
 }
 
 .footer-copywrite {
-    color: var(--white-color);
+    color: var(--black-color);
     font-size: 15px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,9 +77,12 @@
         align-items: center;
     }
 
-    .footer-logo-link img{
-        width: 200px;
+    .footer-logo {
         margin-bottom: 3rem;
+    }
+
+    .footer-title, .twitter {
+        text-align: center;
     }
     
 }

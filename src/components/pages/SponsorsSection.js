@@ -6,10 +6,11 @@ function SponsorsSection() {
 
     const topSponsors = ['acm', 'ieee-cs', 'sigsoft', 'tcse'];
     const platSponsors = ['huawei'];
-    const silverSponsors = ['google', 'bytedance'];
-    const bronzeSponsors = ['oracle', 'paribas'];
-    const exbBoothSponsors = ['blip'];
-    const supporterSponsors = ['feup', 'inesc-id-lisboa', 'visit-portugal'];
+    const silverSponsors = ['google', 'bytedance', 'uber', 'csiro'];
+    const bronzeSponsors = ['oracle', 'paribas', 'ibm', 'critical-software'];
+    const sponsorDelegate = ['aws'];
+    const exbBoothSponsors = ['blip', 'cambridge'];
+    const supporterSponsors = ['feup', 'inesc-id-lisboa', 'visit-portugal', 'turismo-lisboa'];
 
     const sponsorsLinks = {
         'acm': 'https://www.acm.org/',
@@ -17,19 +18,27 @@ function SponsorsSection() {
         'sigsoft': 'https://www2.sigsoft.org/',
         'tcse': 'https://scholarshipinfo.in/',
         'huawei': 'https://www.huawei.com/',
+        'uber': 'https://www.uber.com/pt/pt-pt/',
+        'csiro': 'https://www.csiro.au/',
         'google': 'https://www.google.com/',
         'bytedance': 'https://www.bytedance.com/',
         'oracle': 'https://www.oracle.com/',
+        'ibm': 'https://www.ibm.com/uk-en',
+        'critical-software': 'https://criticalsoftware.com/pt',
         'blip': 'https://blip.pt/',
+        'aws': 'https://aws.amazon.com/pt/',
+        'cambridge': 'https://www.cambridge.org/',
         'paribas': 'https://group.bnpparibas/en/',
         'feup': 'https://sigarra.up.pt/feup/pt/web_page.inicial',
         'inesc-id-lisboa': 'https://www.inesc-id.pt/',
-        'visit-portugal': 'https://www.visitportugal.com/en'
+        'visit-portugal': 'https://www.visitportugal.com/en',
+        'turismo-lisboa': 'https://www.visitlisboa.com/en'
     }
 
 
     return (
         <>
+        
             <div className="sponsors-section">
                 <div className="sponsors-container">
                     <div className="sponsors-title">
@@ -102,6 +111,22 @@ function SponsorsSection() {
                         </div>
                         <div className="sponsors-content-row">
                             <div className="sponsors-content-row-title">
+                                <h2>Sponsor Delegates</h2>
+                            </div>
+                            <div className="sponsors-content-row-logos">
+                                {sponsorDelegate.map((sponsor, index) => {
+                                    return (
+                                        <div className="sponsors-content-row-logo" key={index}>
+                                            <Link to={sponsorsLinks[sponsor]} target="_blank">
+                                                <img src={`https://tqrg.github.io/icse2024/images/sponsors/${sponsor}.png`} alt={sponsor} />
+                                            </Link>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                        <div className="sponsors-content-row">
+                            <div className="sponsors-content-row-title">
                                 <h2>Exhibition Booth</h2>
                             </div>
                             <div className="sponsors-content-row-logos">
@@ -118,7 +143,7 @@ function SponsorsSection() {
                         </div>
                         <div className="sponsors-content-row">
                             <div className="sponsors-content-row-title">
-                                <h2>Supporters</h2>
+                                <h2>  Supporters </h2>
                             </div>
                             <div className="sponsors-content-row-logos">
                                 {supporterSponsors.map((sponsor, index) => {

@@ -1,4 +1,5 @@
 .sponsors-section{
+    margin-top: 100px;
     padding: 3rem 0;
 }
 
@@ -16,7 +17,7 @@
 .sponsors-title h1{
     font-size: 50px;
     font-weight: 700;
-    color: var(--black-color);
+    color: var(--yellow-color);
 }
 
 .sponsors-content{
@@ -40,7 +41,7 @@
 
 .sponsors-content-row-title h2{
     font-size: 30px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: var(--black-color);
 }
 
